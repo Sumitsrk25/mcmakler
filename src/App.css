@@ -2,15 +2,52 @@
   color: #feb901;
 }
 
-.widget-container {
-  background-image: url(https://images.ctfassets.net/64q0dihi81ut/4JsjvN05wPCIhRMI07CzXf/94c3c9089e60271849e01efa0c7a0f75/hero_bg.png?w=1200&fm=jpg&fl=progressive);
-  background-size: cover;
+.-o-border-primary {
+  border: 5px solid #feb901;
+}
+
+.-o-app-container {
+  padding: 0px 0px !important;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   height: 100vh;
 }
 
-.title {
+/* typography */
+.-o-font-title {
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
   margin-bottom: 0;
+  color: #222;
+}
+
+.-o-font-subtitle {
+  composes: -o-font-title;
+  color: #5b5b5b;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.slick-prev:after {
+  content: "<";
+  color: #feb901;
+  font-size: 30px;
+}
+
+.slick-next:before {
+  content: ">";
+  color: #feb901;
+  font-size: 30px;
+}
+
+.btn-primary {
+  background-color: #feb901;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #feb901;
+  border: none;
 }

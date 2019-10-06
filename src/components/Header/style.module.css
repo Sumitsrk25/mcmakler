@@ -1,0 +1,25 @@
+.logo_img {
+  width: 110px;
+  height: 100%;
+
+  @media (min-width: 1024px) {
+    width: 140px;
+  }
+}
+
+.navbar {
+  padding: 0 1rem !important;
+  min-height: 80px;
+  background-color: white;
+}
+
+.header_link {
+  height: 80px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.header_link:hover {
+  background-color: #f6f6f6;
+}

@@ -1,0 +1,10 @@
+.benefits {
+  font-size: 13px;
+  color: #cfcfcd;
+  margin-bottom: 0;
+}
+
+.benefits::before {
+  content: "✓";
+  margin: 0 4px;
+}
