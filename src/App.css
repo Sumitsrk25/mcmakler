@@ -1,3 +1,16 @@
 .-o-color-primary {
   color: #feb901;
 }
+
+.widget-container {
+  background-image: url(https://images.ctfassets.net/64q0dihi81ut/4JsjvN05wPCIhRMI07CzXf/94c3c9089e60271849e01efa0c7a0f75/hero_bg.png?w=1200&fm=jpg&fl=progressive);
+  background-size: cover;
+  height: 100vh;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 0;
+}

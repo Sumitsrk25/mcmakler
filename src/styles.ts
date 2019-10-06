@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import { Container } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import { specification, colors } from "./Theme";
 
-export const HeaderContainer = styled(Container)`
+export const HeaderContainer = styled(Navbar)`
   height: ${specification.headerHeight}vh;
 `;
 
@@ -71,7 +71,6 @@ export const TitleText = styled.p`
 export const SubtitleText = styled.p`
   font-size: 15px;
   font-weight: 300;
-  color:${colors.subtitleColor}
   margin-bottom: 0;
 `;
 
